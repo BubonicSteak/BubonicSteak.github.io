@@ -1,21 +1,4 @@
-
 header {
-  padding: 40px 0;
-  background-color: #ffffff; }
-  header .navbar {
-    margin-bottom: 0;
-    padding: 15px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
-    background-color: #ffffff; }
-  header .top-nav-collapse {
-    background-color: #ffffff; }
-  header .nav > li > a {
-    color: #a7a7a7;
-    text-transform: uppercase;
-    padding: 0 50px;
-    line-height: 50px; }
-    header .nav > li > a:focus, header .nav > li > a:hover {
-      background-color: transparent;
-      color: #5a5a5a; }
+	font-size: 50px;
+	text-align: center;
+body {
