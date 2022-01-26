@@ -19,11 +19,11 @@ body {
 	text-align: center;
 }
 nav {
-		font-family: Georgia, "Times New Roman", serif;
-		font-size: 1.25em;
-		font-weight: bold;
-		text-align: center;
-		margin-top: -1.5em;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
 }
 
 /* Style specifies padding and margins for unordered list */
