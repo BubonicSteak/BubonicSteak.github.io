@@ -1,4 +1,12 @@
 
+
+
+
+
+
+
+
+
 header {
   font-family: Georgia, "Times New Roman", serif;
   position: relative;
@@ -41,7 +49,9 @@ header .overlay {
   z-index: 1;
 }
 
+/* Media Query for devices withi coarse pointers and no hover functionality */
 
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 
 @media (pointer: coarse) and (hover: none) {
   header {
@@ -66,14 +76,14 @@ nav {
 		margin-top: -1.5em;
 }
 
-
+/* Style specifies padding and margins for unordered list */
 nav ul {
 	padding: 0;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 
-
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
 nav li {
 	background-color:#9D9D93;
 	border-radius: 2em;
@@ -82,8 +92,18 @@ nav li {
 	padding: 0.4em; 
 }
 
-
+/* Style changes navigation link text color to white and removes the underline */ 
 nav li a {
 	color: #FFFFFF;
 	text-decoration: none; 
+}
+main {
+		display: block;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 1em;
+		margin-top: .05em;
+		padding: 1em;
+		border-radius: 2em 0 2em 0;
+		background-color: #FFFFFF;
+		opacity: 0.85;
 }
