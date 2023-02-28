@@ -1,0 +1,82 @@
+/* Center the header */
+h1 {
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  /* Make the unordered list run horizontally */
+  nav {
+    background-color: #7f8092;
+    -webkit-text-fill-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ddd;
+  }
+  
+  .active {
+    background-color: #a4a6e7;
+    color: white;
+  }
+  
+  /* Center the paragraphs */
+  h2, h3,h4 {
+    text-align: center;
+  }
+  
+  p {
+    padding-left: 50px; /* adjust this value as needed */
+  }
+  
+  
+
+  
+  
+  /* Add responsive viewports */
+  /* For devices with a screen width of 600px or less */
+  @media (max-width: 600px) {
+    /* Reduce the font size of the header */
+    h1 {
+      font-size: 24px;
+    }
+    
+    /* Stack the navigation links */
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav li {
+      margin: 5px 0;
+    }
+  }
+  
+  /* For devices with a screen width of 900px or less */
+  @media (max-width: 900px) {
+    /* Reduce the margin around the navigation links */
+    nav li {
+      margin: 0 5px;
+    }
+  }
+  
