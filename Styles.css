@@ -1,44 +1,81 @@
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  }
+  .box {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #9b9cc4;
+  }
 /* Center the header */
 h1 {
-    text-align: center;
-    background-color: aqua;
-  }
+  font-size: 36px;
+  text-align: center;
+  color: #4d4d4d;
+  text-shadow: 2px 2px #e6e6e6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  background-image: url(Fish.png), url(Fish.png);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  background-size: 100px auto, 100px auto;
+  padding: 20px 0 20px 50px;
+}
+
+
+
+
   
   /* Make the unordered list run horizontally */
   nav {
-    background-color: #7f8092;
-    -webkit-text-fill-color: #000000;
-    padding: 10px;
+    background-color: #333;
+    color: #fff;
     display: flex;
-    justify-content: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #000000;
     text-align: center;
-    padding: 10px 25px;
-    text-decoration: none;
-  }
+    justify-content: center;
+    padding: 10px;
+    }
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+      
+      margin: 0;
+      padding: 0;
+      }
+      
+      nav ul li {
+      margin: 0 20px;
+      }
+      
+      nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      }
+      
+      nav ul li a.active {
+      text-decoration: underline;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid #0c0c0c;
+        margin: 0px 0;
+        }
   
   li a:hover {
-    background-color: #ddd;
+    background-color: #203ace;
   }
   
   .active {
-    background-color: #a4a6e7;
-    color: white;
+    background-color: #2228d4;
+    color: rgb(10, 221, 236);
   }
   
   /* Center the paragraphs */
@@ -47,7 +84,7 @@ h1 {
   }
   
   p {
-    padding-left: 50px; /* adjust this value as needed */
+    padding-left: 40px; /* adjust this value as needed */
   }
   
   

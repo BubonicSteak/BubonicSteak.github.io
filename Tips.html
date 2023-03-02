@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Fishing Competition 2023</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Get the current URL and remove the domain name
+        var url = window.location.pathname.split('/').pop();
+        // Get the nav links and add the 'active' class to the current link
+        $('nav ul li a[href="' + url + '"]').addClass('active');
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to the 2023 Species Competition Page</h1>
+    <hr>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Standings.html">Standings</a></li>
+        <li><a href="FishSubmissions.html">Fish Submissions</a></li>
+        <li><a href="Showcase.html">Showcase</a></li>
+        <li><a href= "Tips.html">Fishing Tips and Setups</a></li>
+      </ul>
+    </nav>
+    <hr>
+   
+  </body>
+</html>
